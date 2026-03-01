@@ -1,1 +1,4 @@
-plan curricular 1979
+Plan curricular 2023
+Lengua 1
+Lengua 2
+Medición-Software
