@@ -1,1 +1,5 @@
 plan curricular 1979
+Ingles 1
+Ingles 2
+Algoritmos 1
+Algoritmos 2
