@@ -1,6 +1,2 @@
-Plan curricular 1979
-Ingles 1
-Ingles 2
-IA
-IS
-Compiladores
+Pentest
+Criptografia
