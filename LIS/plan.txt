@@ -1,5 +1,4 @@
-plan curricular 1979
-Ingles 1
-Ingles 2
-Algoritmos 1
-Algoritmos 2
+Plan curricular 2023
+Lengua 1
+Lengua 2
+Medición-Software
