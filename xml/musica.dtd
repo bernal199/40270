@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT canciones (cancion*)>
+<!ELEMENT biblioteca (canciones)>
+<!ELEMENT canciones (cancion+)>
 <!ELEMENT cancion (titulo, artista, genero)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT artista (#PCDATA)>

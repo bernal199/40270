@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "musica.dtd">
+<biblioteca>
+    <canciones>
+        <cancion>
+            <titulo>kool aid</titulo>
+            <artista>Bring me the horizon</artista>
+            <genero>metal</genero>
+        </cancion>
+        <cancion>
+            <titulo>Eyes without a face</titulo>
+            <artista>Billy idol</artista>
+            <genero>pop</genero>
+        </cancion>
+    </canciones>
+</biblioteca>
