@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Parrafo</p>
+    <button>Hola</button>
+
+    <script>
+        // comentario
+        elemento = 1
+        elemento = "uno"
+        elemento = [1,2,3,4]
+
+        for (k in elemento)
+        console.log(elemento[k])
+
+        for (const key in elemento) {
+            if (!Object.hasOwn(elemento, key)) continue;
+            
+            const element = elemento[key];
+            console.log(element)
+            
+        }
+
+        for (i = 0; i < elemento.length; i++)
+        console.log(elemento[i])
+
+        console.log(elemento)
+        for (i = 0; i < 10; i++)
+            console.log("Hola mundo"+i)
+
+    </script>
+</body>
+</html>

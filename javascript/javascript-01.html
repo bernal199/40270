@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- h1{titulo}+p[id="p1"]+button{evento} -->
+    <p id=""parrafo1" style ="color: green;"></p>
+    <input type="text" id="input1">
+    <button id="boton1">evento</button>
+    <button id="boton2">color</button>
+    <button id="boton3">color de fondo</button>
+
+    <script>
+        let parrafo = document.getElementById("parrafo1")
+        let entrada = document.getElementById("input1")
+        let boton = document.getElementById("boton1")
+        let botonColor = document.getElementById("boton2")
+    
+        // control de eventos mediante una llamada de call back
+        boton.addEventListener("click",escribe)
+        function escribe(){
+            parrafo.innerHTML = entrada.value
+        }
+
+        // invocacion de una funcion mediante una llamada de call back
+        botonColor.addEventListener("click",cambiaColor)
+        function escribe (){
+            parrafo.innerText = entrada.value
+        }
+
+        // invocación con función anónima
+        botonColor.addEventListener("click", function(){
+            parrafo.style.color = entrada.value
+        })
+
+        // función anónima flecha
+        const x1 = function () { console.log("solo!")}
+        const y1 = function (a,b) {return a*b}
+        const x2 = () => console.log("solo2!")
+        const y2 = (a,b) => a*b
+
+        botonFondo.addEventListener("click", () => {
+            parrafo.style.backgroundColor = "Blue"
+        })
+    </script>
+</body>
+</html>

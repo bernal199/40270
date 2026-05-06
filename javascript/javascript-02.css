@@ -1,0 +1,26 @@
+button {
+    width: 33.3px;
+    height: 30px;
+    padding: 40px;
+    /* padding-bottom: 20px;
+    padding-top: 20px; */
+}
+
+button[id="b10"] {
+    width: 100%;
+}
+
+div {
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+input {
+    width: 100%;}
+}
+
+.operadores {
+    background-color: bisque;
+    width: 33.3%;
+}
