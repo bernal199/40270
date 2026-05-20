@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../x.js", "../xyz.js"],
+  "sourcesContent": ["function x(params) {\r\n    y(\"x\")\r\n    console.log(\"x\"+params)\r\n    return \"fin x\"\r\n}\r\n\r\nfunction xx(params) {\r\n    return \"fin xx\"\r\n}\r\n\r\nexport {x,xx}", "import {x} from \"./x.js\"\r\nconsole.log(x(\"abc\"))\r\nconsole.log(x(\"abx\"))\r\nconsole.log(xx(\"def\"))\r\nconsole.log(y(\"ghi\"))\r\nconsole.log(z(\"jkl\"))"],
+  "mappings": "MAAA,SAASA,EAAEC,EAAQ,CACf,SAAE,GAAG,EACL,QAAQ,IAAI,IAAIA,CAAM,EACf,OACX,CCHA,QAAQ,IAAIC,EAAE,KAAK,CAAC,EACpB,QAAQ,IAAIA,EAAE,KAAK,CAAC,EACpB,QAAQ,IAAI,GAAG,KAAK,CAAC,EACrB,QAAQ,IAAI,EAAE,KAAK,CAAC,EACpB,QAAQ,IAAI,EAAE,KAAK,CAAC",
+  "names": ["x", "params", "x"]
+}
