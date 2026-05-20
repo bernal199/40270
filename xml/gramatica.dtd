@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE autos {
+    <!ELEMENT autos (auto*)>
+    <!ELEMENT auto (modelo, marca, color, (placas | permiso))>
+    <!ELEMENT modelo (#PCDATA)>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT placas (#PCDATA)>
+    <!ELEMENT permiso (#PCDATA)>
+    <!ATTLIST placas ESTADO ( vr | mx | pb) "vr" >
+}>
+<autos>
+    <auto>
+        <modelo>911</modelo>
+        <marca>Porche</marca>
+        <color>azul</color>
+        <placas>G777D</placas>
+    </auto>
+    <auto>
+        <modelo>Chevi pop</modelo>
+        <marca>Chevrolet</marca>
+        <color>roko</color>
+        <permiso>98123</permiso>
+        <permiso>52672</permiso>
+    </auto>

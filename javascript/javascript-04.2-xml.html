@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        th{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mostrar información</h1>
+
+    <button onclick="cargar_informacion()">
+        Cargar información
+    </button>
+
+    <table id="tabla"></table>
+
+    <script>
+
+        let datos = [
+            ["Nombre", "Password"],
+            ["John", 123],
+            ["Jane", 456],
+            ["Carlos", 789]
+        ];
+
+        function cargar_informacion(){
+
+            let tabla = document.getElementById("tabla");
+
+            tabla.innerHTML = "";
+
+            for(let i = 0; i < datos.length; i++){
+
+                tabla.innerHTML += "<tr>";
+
+                for(let j = 0; j < datos[i].length; j++){
+
+                    if(i == 0){
+                        tabla.innerHTML += "<th>" + datos[i][j] + "</th>";
+                    }
+                    else{
+                        tabla.innerHTML += "<td>" + datos[i][j] + "</td>";
+                    }
+
+                }
+
+                tabla.innerHTML += "</tr>";
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>
